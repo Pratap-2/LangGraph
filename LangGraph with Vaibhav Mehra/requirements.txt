@@ -1,0 +1,11 @@
+langgraph
+langchain
+langchain-openai
+openai
+tiktoken
+python-dotenv
+chromadb                 # For vectorstore-backed memory or RAG
+faiss-cpu                # Optional: fast vector search (alternative to Chroma)
+sentence-transformers    # For embeddings (especially with FAISS)
+pydot                    # For graph visualization
+graphviz                 # Visualization support for LangGraph

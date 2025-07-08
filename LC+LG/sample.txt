@@ -1,0 +1,5 @@
+LangGraph is a library for building stateful, multi-step agents. It allows developers to define structured workflows using graphs where nodes represent computation steps and edges define transitions.
+
+LangChain is a broader framework for building applications with LLMs. It provides tools like prompt templates, memory, agents, retrievers, and more.
+
+LangGraph can integrate with LangChain components, making it suitable for fine-grained control of multi-agent workflows or deterministic pipelines involving LLMs.
