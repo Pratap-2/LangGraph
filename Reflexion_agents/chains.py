@@ -35,7 +35,7 @@ first_respond_prompt_template=actor_prompt_template.partial(
 llm=ChatOpenAI(model='gpt-4o-mini')
 
 chain=first_respond_prompt_template | llm.bind_tools(tools=[QuestionAnswer],tool_choice='QuestionAnswer')
-validator=PydanticToolsParser(tools=[QuestionAnswer])
+validator=PydanticToolsParser(tools=[QuestionAnswer]) # fr reenforcing the schema 
 
 # Revisor section
 
